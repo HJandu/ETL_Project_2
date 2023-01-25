@@ -1,6 +1,12 @@
 # <p align="center"> <ins>ETL Project 2</ins>
+# <p align="center"> :soccer: FIFA 2022 :soccer:
 
-## Project Proposal
+ ![Screen Shot 2023-01-25 at 22 37 55](https://user-images.githubusercontent.com/116304118/214707931-5c826886-1e19-40ce-9a84-8e78eea2c0f2.png)
+
+
+
+
+## <ins>Project Proposal</ins>
 
 The project focuses on the FIFA World Cup 2022 data. With 32 teams from around the world competing for the coveted trophy, the excitement and energy of this global event is palpable. This series of dataset captures some of the action, from player statistics and team standings, to game scores and match performances.
 
@@ -31,6 +37,10 @@ The Dataframes are named as team_data_new and new_team_tips. Both csv files were
 After looking through the data, the data was cleaned. This is where coloumns needed were selected and another DataFrame was generated. (insert picture of code and dataframe)
 
 ## Loading of the Data
-‘pgAdmin 4’ was used to create a PostgreSQL table that included the headers (table names) from the dataframe.
+‘pgAdmin 4’ was used to create PostgreSQL tables that included the headers from the dataframe. See images below.
 
-(insert picture of create code from PGAdmin)
+![Screen Shot 2023-01-25 at 19 58 30](https://user-images.githubusercontent.com/116304118/214709587-e96a53c9-768f-4630-a491-a38e3e4f08ba.png)
+
+![Screen Shot 2023-01-25 at 19 58 40](https://user-images.githubusercontent.com/116304118/214709679-4b0aecae-e358-44bf-aca3-7c531e0d0580.png)
+
+
