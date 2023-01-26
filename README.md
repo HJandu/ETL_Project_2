@@ -65,6 +65,7 @@ Once the data was loaded, we downloaded the CSV files. You can find the csv file
 ## <ins>Summary of our findings</ins>
 Using the aggregate method, we were able to create Pandas DataFrames for our query questions. 
 We then created tables in PGAdmin.
+
 ![Screen Shot 2023-01-26 at 22 56 45](https://user-images.githubusercontent.com/116304118/214971416-e8e37ab4-5a44-4d99-ad84-8efa7cdcaa1f.png)
 
 
