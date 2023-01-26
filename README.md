@@ -54,6 +54,10 @@ Columns were also renamed, before loading the data to PostgreSQL. See image belo
 
 ![Screen Shot 2023-01-25 at 19 58 40](https://user-images.githubusercontent.com/116304118/214709679-4b0aecae-e358-44bf-aca3-7c531e0d0580.png)
 
+Once the data was loaded, we downloaded the CSV files. You can find the csv files by clicking the links below.
+* <a href="https://github.com/HJandu/ETL_Project_2/blob/main/Description_PGAdmin.csv">Description</a>  </br>
+* <a href="https://github.com/HJandu/ETL_Project_2/blob/main/teams_PGAdmin.csv">Teams</a>  </br>
+
 ## <ins>Summary of our findings</ins>
 #### Top 5 teams that played the most minutes
 
