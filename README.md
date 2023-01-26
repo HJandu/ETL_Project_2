@@ -63,7 +63,20 @@ Once the data was loaded, we downloaded the CSV files. You can find the csv file
 * <a href="https://github.com/HJandu/ETL_Project_2/blob/main/teams_PGAdmin.csv">Teams</a>  </br>
 
 ## <ins>Summary of our findings</ins>
+Using the aggregate method, we were able to create Pandas DataFrames for our query questions. 
+We then created tables in PGAdmin.
+![Screen Shot 2023-01-26 at 22 56 45](https://user-images.githubusercontent.com/116304118/214971416-e8e37ab4-5a44-4d99-ad84-8efa7cdcaa1f.png)
+
+
+
+The DataFrames were first created on Jupyter notebook and then uploaded onto PostgreSQL (PGAdmin). 
+See images of the code and the tables for each query below.
+
 #### Top 5 teams that played the most minutes
+
+![Screen Shot 2023-01-26 at 23 14 29](https://user-images.githubusercontent.com/116304118/214971766-1aef358e-229f-47be-9e70-576fd6d58ca6.png)
+
+![Screen Shot 2023-01-26 at 22 45 47](https://user-images.githubusercontent.com/116304118/214971623-09ec7d59-8986-45e2-a5a9-bf03d91cdb69.png)
 
 ![Screen Shot 2023-01-26 at 17 57 26](https://user-images.githubusercontent.com/116304118/214913122-4dbaf3a3-b103-4d82-b335-4d21b42e9fe8.png)
 
@@ -71,17 +84,34 @@ Based on the findings, we can see that Argentina took the lead in playing the mo
 
 #### The top 5 teams that took penalties
 
+![Screen Shot 2023-01-26 at 23 16 33](https://user-images.githubusercontent.com/116304118/214971972-aa541f25-2350-427c-b645-491b01a03429.png)
+
+
+![Screen Shot 2023-01-26 at 22 58 45](https://user-images.githubusercontent.com/116304118/214971899-e9628069-05c1-411c-9802-0efec3d9e7a4.png)
+
+
 ![Screen Shot 2023-01-26 at 17 57 39](https://user-images.githubusercontent.com/116304118/214913268-b1486ae9-7a20-4c9f-a4d9-0b0ef6a8eef2.png)
 
 Based on the findings Argentina took the most penalities and scored (4) and joint 4th were Ecuador and Spain (1)
 
+
 #### Top 5 teams that had the most yellow and red cards
+![Screen Shot 2023-01-26 at 23 17 37](https://user-images.githubusercontent.com/116304118/214972081-83e3e28d-01f7-43ca-afd3-8a5406b97d2b.png)
+
+![Screen Shot 2023-01-26 at 22 59 15](https://user-images.githubusercontent.com/116304118/214972152-ef0a079a-debd-48fe-a470-0ceefab2a2aa.png)
+
 
 ![Screen Shot 2023-01-26 at 17 57 53](https://user-images.githubusercontent.com/116304118/214913309-daec10ed-5d2e-41d4-9ac7-6f950ef2b369.png)
 
 Based on the findings, Netherlands were the only team who were given both yellow and red cards.
 
 #### Top 5 teams with the most goals
+
+![Screen Shot 2023-01-26 at 23 19 01](https://user-images.githubusercontent.com/116304118/214972255-af1bb640-c2f6-4a2f-a1bc-8d66d9147cb3.png)
+
+
+![Screen Shot 2023-01-26 at 22 58 02](https://user-images.githubusercontent.com/116304118/214972208-ddace3cd-31c9-4012-b233-629335cc1d28.png)
+
 
 ![Screen Shot 2023-01-26 at 17 58 28](https://user-images.githubusercontent.com/116304118/214913361-dc3e03be-2f8e-4636-8452-4c3bfa4faf0f.png)
 
