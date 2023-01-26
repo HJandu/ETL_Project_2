@@ -48,7 +48,7 @@ Columns were also renamed, before loading the data to PostgreSQL. See image belo
 
 
 ## <ins>Loading of the Data</ins>
-‘pgAdmin 4’ was used to create PostgreSQL tables that included the headers from the dataframe. See images below.
+Data was then loaded into a relational database for storage. ‘pgAdmin 4’ was used to create PostgreSQL tables that included the headers from the dataframe. See images below.
 
 ![Screen Shot 2023-01-25 at 19 58 30](https://user-images.githubusercontent.com/116304118/214709587-e96a53c9-768f-4630-a491-a38e3e4f08ba.png)
 
