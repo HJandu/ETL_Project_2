@@ -54,6 +54,10 @@ Data was then loaded into a relational database for storage. ‘pgAdmin 4’ was
 
 ![Screen Shot 2023-01-25 at 19 58 40](https://user-images.githubusercontent.com/116304118/214709679-4b0aecae-e358-44bf-aca3-7c531e0d0580.png)
 
+Data was loaded successfully onto PostgreSQL. See image of output below.
+
+![Screen Shot 2023-01-26 at 19 41 06](https://user-images.githubusercontent.com/116304118/214934466-0a170e90-52bb-4935-b084-fc171a333698.png)
+
 Once the data was loaded, we downloaded the CSV files. You can find the csv files by clicking the links below.
 * <a href="https://github.com/HJandu/ETL_Project_2/blob/main/Description_PGAdmin.csv">Description</a>  </br>
 * <a href="https://github.com/HJandu/ETL_Project_2/blob/main/teams_PGAdmin.csv">Teams</a>  </br>
