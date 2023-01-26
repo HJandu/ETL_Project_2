@@ -39,7 +39,7 @@ The Dataframes are named as team_data_new and new_team_tips. Both csv files were
 ![Screen Shot 2023-01-26 at 17 44 07](https://user-images.githubusercontent.com/116304118/214910244-2d7cee38-e5df-4837-b953-57bf596bd34a.png)
 
 ## <ins>Transformation</ins>
-After looking through the data, the data was cleaned. This is where coloumns needed were selected and another DataFrame was generated. 
+After looking through the data, the data was cleaned. This is where columns needed were selected and another DataFrame was generated. 
 
 ![Screen Shot 2023-01-26 at 17 44 07](https://user-images.githubusercontent.com/116304118/214911741-057b7712-7829-4963-ae03-076838dcccce.png)
 
