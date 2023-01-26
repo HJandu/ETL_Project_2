@@ -4,16 +4,26 @@
  ![Screen Shot 2023-01-25 at 22 37 55](https://user-images.githubusercontent.com/116304118/214707931-5c826886-1e19-40ce-9a84-8e78eea2c0f2.png)
 
 
+## <ins>Contents Page</ins>
+## Contents
+
+* [Project Proposal](#Project-header)
+* [Goal of our Project](#Goal-header)
+* [Sources of Data](#Sources-header) 
+* [Data Extraction](#Extraction-header)
+* [Transformation](#Transform-header)
+* [Loading of the Data](#Load-header)
+* [Summary of our findings](#Summary-header)
 
 
-## <ins>Project Proposal</ins>
+## <a id="Project-header"></a> <ins>Project Proposal</ins>
 
 The project focuses on the FIFA World Cup 2022 data. With 32 teams from around the world competing for the coveted trophy, the excitement and energy of this global event is palpable. This series of dataset captures some of the action, from player statistics and team standings, to game scores and match performances.
 
 With this FIFA World Cup 2022 dataset, the possibilities are endless. Don't miss out on the opportunity to be a part of the action and join the ranks of the world's top data analysts. Grab your dataset today and let the games begin!
 
 The data transformation process will be performed using Jupyter Notebook, and then be loaded into a PostgreSQL database preparing the data for further analysis to be performed.
-The chosen dataset’s have been extracted from three different sources of data: groups statitics data, team data and team tips data.
+The chosen dataset’s have been extracted from three different sources of data: groups statistics data, team data and team tips data.
 The full code can be viewed here. <a href="https://github.com/HJandu/ETL_Project_2/blob/main/Fifa_project2.ipynb">Click here</a>  </br>
 
 ## <ins>Goal of our project</ins>
@@ -62,7 +72,7 @@ Once the data was loaded, we downloaded the CSV files. You can find the csv file
 * <a href="https://github.com/HJandu/ETL_Project_2/blob/main/Description_PGAdmin.csv">Description</a>  </br>
 * <a href="https://github.com/HJandu/ETL_Project_2/blob/main/teams_PGAdmin.csv">Teams</a>  </br>
 
-## <ins>Summary of our findings</ins>
+## <a id="Summary-header"></a><ins>Summary of our findings</ins>
 Using the aggregate method, we were able to create Pandas DataFrames for our query questions. 
 We then created tables in PGAdmin.
 
