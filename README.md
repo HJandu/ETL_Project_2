@@ -70,7 +70,7 @@ We then created tables in PGAdmin.
 
 
 
-The DataFrames were first created on Jupyter notebook and then uploaded onto PostgreSQL (PGAdmin). 
+The DataFrames were first created on Jupyter notebook (see code) and then uploaded onto PostgreSQL (PGAdmin). 
 See images of the code and the tables for each query below.
 
 #### Top 5 teams that played the most minutes
