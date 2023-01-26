@@ -24,9 +24,10 @@ The goal of this project was to find out:
 
 ## Sources of Data
 Our dataset contains two CSV files and a JSON file, available from Kaggle.com.
-* team data
-* group stats
-* team tips (JSON) 
+* <a href="https://github.com/HJandu/ETL_Project_2/blob/main/Resources/team_data.csv">Team Data</a>  </br>
+* <a href="https://github.com/HJandu/ETL_Project_2/blob/main/Resources/group_stats.csv">Group Stats</a>  </br>
+* <a href="https://github.com/HJandu/ETL_Project_2/blob/main/Resources/team_tips.json">Team tips (JSON)</a>  </br> 
+
 
 ## Data Extraction
 Three files are selected from Kaggle.com and converted to panda DataFrames.
