@@ -62,18 +62,23 @@ Once the data was loaded, we downloaded the CSV files. You can find the csv file
 #### Top 5 teams that played the most minutes
 
 ![Screen Shot 2023-01-26 at 17 57 26](https://user-images.githubusercontent.com/116304118/214913122-4dbaf3a3-b103-4d82-b335-4d21b42e9fe8.png)
+
 Based on the findings, we can see that Argentina took the lead in playing the most minutes (690 minutes) and Brazil bcoming in fifth in playing the most minutes (480 minutes).
 
 #### The top 5 teams that took penalties
 
 ![Screen Shot 2023-01-26 at 17 57 39](https://user-images.githubusercontent.com/116304118/214913268-b1486ae9-7a20-4c9f-a4d9-0b0ef6a8eef2.png)
 
-Based on the findings Argentina took the most penalities and scored (4) and joint 4th place was Ecuador and Spain (1)
+Based on the findings Argentina took the most penalities and scored (4) and joint 4th were Ecuador and Spain (1)
+
 #### Top 5 teams that had the most yellow and red cards
 
 ![Screen Shot 2023-01-26 at 17 57 53](https://user-images.githubusercontent.com/116304118/214913309-daec10ed-5d2e-41d4-9ac7-6f950ef2b369.png)
+
+Based on the findings, Netherlands were the only team who were given both yellow and red cards.
 
 #### Top 5 teams with the most goals
 
 ![Screen Shot 2023-01-26 at 17 58 28](https://user-images.githubusercontent.com/116304118/214913361-dc3e03be-2f8e-4636-8452-4c3bfa4faf0f.png)
 
+Based on the findings, all 5 teams had a higher turnout in scoring 'Goals' than they did in taking 'Non-Penality Goals'.
