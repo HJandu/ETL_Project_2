@@ -63,7 +63,7 @@ Once the data was loaded, we downloaded the CSV files. You can find the csv file
 
 ![Screen Shot 2023-01-26 at 17 57 26](https://user-images.githubusercontent.com/116304118/214913122-4dbaf3a3-b103-4d82-b335-4d21b42e9fe8.png)
 
-Based on the findings, we can see that Argentina took the lead in playing the most minutes (690 minutes) and Brazil bcoming in fifth in playing the most minutes (480 minutes).
+Based on the findings, we can see that Argentina took the lead in playing the most minutes (690 minutes) and Brazil coming in fifth in playing the most minutes (480 minutes).
 
 #### The top 5 teams that took penalties
 
