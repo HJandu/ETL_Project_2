@@ -67,7 +67,7 @@ Based on the findings, we can see that Argentina took the lead in playing the mo
 #### The top 5 teams that took penalties
 
 ![Screen Shot 2023-01-26 at 17 57 39](https://user-images.githubusercontent.com/116304118/214913268-b1486ae9-7a20-4c9f-a4d9-0b0ef6a8eef2.png)
-       Based on the findings Argentina took the most penalities and scored (4) and joint 4th were Ecuador and Spain (1)
+Based on the findings Argentina took the most penalities and scored (4) and joint 4th were Ecuador and Spain (1)
 #### Top 5 teams that had the most yellow and red cards
 
 ![Screen Shot 2023-01-26 at 17 57 53](https://user-images.githubusercontent.com/116304118/214913309-daec10ed-5d2e-41d4-9ac7-6f950ef2b369.png)
