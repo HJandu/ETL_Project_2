@@ -19,18 +19,31 @@
 
 The project focuses on the FIFA World Cup 2022 data. With 32 teams from around the world competing for the coveted trophy, the excitement and energy of this global event is palpable. This series of dataset captures some of the action, from player statistics and team standings, to game scores and match performances.
 
-With this FIFA World Cup 2022 dataset, the possibilities are endless. Don't miss out on the opportunity to be a part of the action and join the ranks of the world's top data analysts. Grab your dataset today and let the games begin!
+With this FIFA World Cup 2022 dataset, the possibilities are endless. There is so much to explore in very little time. However, we only focused on a few things, due to time limitations. 
 
-The data transformation process will be performed using Jupyter Notebook, and then be loaded into a PostgreSQL database preparing the data for further analysis to be performed.
+The data transformation process will be performed using Jupyter Notebook, and then it will be loaded into a PostgreSQL database preparing the data for further analysis to be performed. We will use seom visualisations too, to have a clearer picture of the analysis. 
 The chosen dataset’s have been extracted from three different sources of data: groups statistics data, team data and team tips data.
 The full code can be viewed here. <a href="https://github.com/HJandu/ETL_Project_2/blob/main/Fifa_project2.ipynb">Click here</a>  </br>
 
 ## <a id="Goal-header"></a><ins>Goal of our project</ins>
 The goal of this project was to find out: 
-* Top 5 teams that played the most minutes
-* The top 5 teams that took penalties
-* Top 5 teams that had the most yellow and red cards
-* Top 5 teams with the most goals
+* The top 5 teams that played the most minutes.
+* The top 5 teams that took penalties.
+* The top 5 teams that had the most yellow and red cards.
+* The top 5 teams with the most goals.
+
+# <ins>Required Setup</ins>
+
+To run the notebook.ipynb file you will need to install the following packages/dependencies:
+* SQLAlchemy `pip install SQLAlchemy`
+* SQLite `conda install -c anaconda sqlite -y`
+* Psycopg2 `pip install psycopg2`
+
+To connect to the PostgreSQL database you will need to add your PgAdmin 4 username and password to a config.py file
+
+![Screen Shot 2023-01-29 at 22 12 21](https://user-images.githubusercontent.com/116304118/215358482-51c5db4b-e32f-4d53-85e2-3fe2192881fa.png)
+
+The config.py file should be stored in your local repository folder.
 
 ## <a id="Sources-header"></a><ins>Sources of Data</ins>
 Our dataset contains two CSV files and a JSON file, available from Kaggle.com.
@@ -38,17 +51,19 @@ Our dataset contains two CSV files and a JSON file, available from Kaggle.com.
 * <a href="https://github.com/HJandu/ETL_Project_2/blob/main/Resources/group_stats.csv">Group Stats</a>  </br>
 * <a href="https://github.com/HJandu/ETL_Project_2/blob/main/Resources/team_tips.json">Team tips (JSON)</a>  </br> 
 
+The Json file contains metadata. This type of data is crucial, as it helps to have a better understanding of the two different csv's. Without this JSON file, we would be making our own assumptions of the data. 
+
 
 ## <a id="Extraction-header"></a><ins>Data Extraction</ins>
-Three files are selected from Kaggle.com and converted to panda DataFrames.
+As mentioned above, three files are selected from Kaggle.com and converted to Pandas DataFrames.
 
-The Dataframes are named as team_data_new and new_team_tips. Both csv files were merged in order to create the team_data_new Panda DataFrame. 
+The Dataframes are named as team_data_new and new_team_tips. Both csv files were merged in order to create the team_data_new Pandas DataFrame. 
 
 ![Screen Shot 2023-01-26 at 17 43 47](https://user-images.githubusercontent.com/116304118/214910190-cba99eed-18f8-4c60-89c8-824cc751f56c.png)
 ![Screen Shot 2023-01-26 at 17 44 07](https://user-images.githubusercontent.com/116304118/214910244-2d7cee38-e5df-4837-b953-57bf596bd34a.png)
 
 ## <a id="Transform-header"></a><ins>Transformation</ins>
-After looking through the data, the data was cleaned. This is where columns needed were selected and another DataFrame was generated. 
+Nexted we looked through the Pandas DataFrame and the data was cleaned. The required columns were selected and another DataFrame was generated. 
 
 ![Screen Shot 2023-01-26 at 17 44 07](https://user-images.githubusercontent.com/116304118/214911741-057b7712-7829-4963-ae03-076838dcccce.png)
 
@@ -57,12 +72,13 @@ Columns were also renamed, before loading the data to PostgreSQL. See image belo
 
 
 ## <a id="Load-header"></a><ins>Loading of the Data</ins>
-Data was then loaded into a relational database for storage. ‘pgAdmin 4’ was used to create PostgreSQL tables that included the headers from the dataframe. See images below.
+Data was then loaded into a relational database for storage. ‘PGAdmin 4’ was used to create PostgreSQL tables that included the headers from the dataframe. See images below.
 
 ![Screen Shot 2023-01-25 at 19 58 30](https://user-images.githubusercontent.com/116304118/214709587-e96a53c9-768f-4630-a491-a38e3e4f08ba.png)
 
 ![Screen Shot 2023-01-25 at 19 58 40](https://user-images.githubusercontent.com/116304118/214709679-4b0aecae-e358-44bf-aca3-7c531e0d0580.png)
 
+A localhost connection to a PostgreSQL server was created and a connection made to it. The *connection* was made via an *engine* on *Jupyter Notebook* that could talk to the *database*.
 Data was loaded successfully onto PostgreSQL. See image of output below.
 
 ![Screen Shot 2023-01-26 at 19 41 06](https://user-images.githubusercontent.com/116304118/214934466-0a170e90-52bb-4935-b084-fc171a333698.png)
@@ -126,3 +142,14 @@ Based on the findings, Netherlands were the only team who were given both yellow
 ![Screen Shot 2023-01-26 at 17 58 28](https://user-images.githubusercontent.com/116304118/214913361-dc3e03be-2f8e-4636-8452-4c3bfa4faf0f.png)
 
 Based on the findings, all 5 teams had a higher turnout in scoring 'Goals' than they did in taking 'Non-Penality Goals'.
+
+
+## <ins>Collaborators</ins>
+
+* [Hardip Jandu](https://github.com/HJandu)
+
+* [Maliha Mir](https://github.com/Maliha2030)
+
+* [Marta Rychel](https://github.com/rychema)
+
+* [Hamda Mohamoud](https://github.com/hamdamoha)
